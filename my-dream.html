@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Introduction</title>
+  <link href="style.css" rel="stylesheet">
+</head>
+<body>
+  <!-- Side Navigation -->
+  <div class="sidenav" id="mySidenav">
+    <span class="close-btn" onclick="closeNav()">×</span>
+    <a href="index.html">About Me</a>
+    <a href="my-dream.html">My Dream</a>
+    <a href="education.html">Education</a>
+    <a href="contact.html">Contact</a>
+  </div>
+
+  <!-- Main Content -->
+  <div class="main">
+    <h1>ความใฝ่ฝันสูงสุด</h1>
+    <p>ความใฝ่ฝันสูงสุดคืออยากเป็นตากล่องถ่าย Video และ ได้เข้าทำงานเป็นสมาชิกช่อง Rubsarb Production</p>
+    <img src="Rubsarb.png" alt="Rubsarb Logo">
+
+  </div>
+
+  <!-- JavaScript -->
+  <script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+      document.querySelector('.main').style.marginLeft = "250px";
+    }
+
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+      document.querySelector('.main').style.marginLeft = "0";
+    }
+  </script>
+  </body>
+  </html>
+  

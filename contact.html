@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Introduction</title>
+  <link href="style.css" rel="stylesheet">
+</head>
+<body>
+  <!-- Side Navigation -->
+  <div class="sidenav" id="mySidenav">
+    <span class="close-btn" onclick="closeNav()">×</span>
+    <a href="index.html">About Me</a>
+    <a href="my-dream.html">My Dream</a>
+    <a href="education.html">Education</a>
+    <a href="contact.html">Contact</a>
+  </div>
+
+  <!-- Main Content -->
+  <div class="main">
+    <h1>ช่องทางการติดต่อ และ Social</h1>
+    <h1>
+      <style>
+        .main {
+  text-align: center; /* จัดข้อความให้อยู่กึ่งกลางในกล่อง */
+}
+        .main img {
+          border: none; /* ลบกรอบรอบรูป */
+          width: 200px;
+          height: auto;
+        }
+        
+      </style>
+      <h1>Facebook : Sirawit wongsukchaikit</h1>
+      <a href="https://www.facebook.com/sirawit.wongsukchaikit/" target="_blank">
+        <img src="f_logo_RGB-Blue_1024.png" alt="Facebook Logo">
+    </a>
+    <div class="youtube">
+    <style>
+        .youtube {
+          text-align: center; 
+        }
+
+        .youtube img {
+          border: none; 
+          width: 280px;
+          height: auto;
+        }
+    </style>
+    <h1>Youtube : RealDurax</h1>
+  <a href="https://www.youtube.com/@realdurax" target="_blank">
+    <img src="youtube_PNG102349.png" alt="youtube_PNG102349"class="youtube">
+</a>
+<div class="discord">
+<style>
+  .discord {
+          text-align: center; 
+        }
+  .discord img {
+          border: none;
+          width: 200px;
+          height: auto;
+  }
+</style>
+<h1>Discord : tag#: rdx0407</h1>
+  <a href="" target="_blank">
+    <img src="LOGO-DISCORD.png" alt="Discord"class="discord">
+</a>
+
+<div class="phone">
+  <style>
+    .phone {
+    text-align: center; 
+  }
+.phone img {
+    border: none;
+    width: 200px;
+    height: auto;
+}
+  </style> 
+</div>
+<h1>Phone : 085-847-8479</h1>
+  <a href="" target="_blank">
+    <img src="phone.png" alt="phone"class="phone">
+</a>
+
+
+  <!-- JavaScript -->
+  <script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+      document.querySelector('.main').style.marginLeft = "250px";
+    }
+
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+      document.querySelector('.main').style.marginLeft = "0";
+    }
+  </script>
+</body>
+</html>
